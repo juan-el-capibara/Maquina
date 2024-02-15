@@ -24,10 +24,11 @@ switch (menu){
                if (vuelto > 0){
                     confirm("Vuelto")
                }
-
+               break;
+        
         } 
         break;
-        
+
     case 2:
         let pago2 = 0
         while (pago2 <B){
@@ -38,14 +39,14 @@ switch (menu){
            else{
                 confirm("Solo de Monedas de $100-$50-$10")
            }
-               console.log(pago2)
-               let vuelto = pago2 - B
-               if (vuelto > 0){
-                    confirm("Vuelto")
-               }
-
-        } 
+            console.log(pago2)
+            let vuelto = pago2 - B
+            if (vuelto > 0){
+                confirm("Vuelto")
+             }
         break;
+        } 
+        break; 
     case 3:
         let pago3 = 0
         while (pago3 <C){
@@ -56,13 +57,14 @@ switch (menu){
            else{
                 confirm("Solo de Monedas de $100-$50-$10")
            }
-               console.log(pago3)
-               let vuelto = pago3 - C
-               if (vuelto > 0){
-                    confirm("Vuelto")
-               }
-
+            console.log(pago3)
+            let vuelto = pago3 - C
+            if (vuelto > 0){
+                confirm("Vuelto")
+           }
+            break;
         } 
+        break;
     default: "Product not found"
         console.log("Product not found")
         break;
