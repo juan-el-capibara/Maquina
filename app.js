@@ -29,11 +29,40 @@ switch (menu){
         break;
         
     case 2:
-        console.log("Product 2")
+        let pago2 = 0
+        while (pago2 <B){
+           let monedas = Number(prompt(" Ingrese las monedas -100-50-10- "))
+           if (monedas === 100 || monedas === 10 || monedas === 50){
+            pago2 += 1
+           }
+           else{
+                confirm("Solo de Monedas de $100-$50-$10")
+           }
+               console.log(pago2)
+               let vuelto = pago2 - B
+               if (vuelto > 0){
+                    confirm("Vuelto")
+               }
+
+        } 
         break;
     case 3:
-        console.log("Product 3")
-        break;
+        let pago3 = 0
+        while (pago3 <C){
+           let monedas = Number(prompt(" Ingrese las monedas -100-50-10- "))
+           if (monedas === 100 || monedas === 10 || monedas === 50){
+            pago3 += 1
+           }
+           else{
+                confirm("Solo de Monedas de $100-$50-$10")
+           }
+               console.log(pago3)
+               let vuelto = pago3 - C
+               if (vuelto > 0){
+                    confirm("Vuelto")
+               }
+
+        } 
     default: "Product not found"
         console.log("Product not found")
         break;
